@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-check"
+version = "0.1.0"
+description = ""
+authors = ["Michał Kowieski <michael.kowieski@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.55.1"
+
+[tool.poetry.dev-dependencies]
+uvicorn = "^0.11.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
